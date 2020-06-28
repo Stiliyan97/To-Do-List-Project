@@ -1,0 +1,36 @@
+body{
+	background-color: gray;
+	margin: 0px auto;
+	padding:10%;
+
+}
+
+#container{
+	background-color: teal;
+	width: 400px;
+	border: 1px solid white;
+	margin: 0 auto;
+ 	max-width: 700px;
+  	max-height: 100%;
+  	
+}
+.push{
+	background-color: teal;
+	height: 50px;
+	width: 50px;
+	font-size: 2em;
+
+}
+
+
+.header{
+	width: 400px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+h1{
+	width: 200px;
+	margin: 0px;
+	height: 50px;
+}
