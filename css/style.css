@@ -1,36 +1,72 @@
 body{
-	background-color: gray;
+	background: linear-gradient(to right, rgb(93, 133, 122),rgb(242, 209, 178));
 	margin: 0px auto;
 	padding:10%;
 
 }
 
 #container{
-	background-color: teal;
+	background-color: rgb(242, 209, 178);
 	width: 400px;
 	border: 1px solid white;
 	margin: 0 auto;
  	max-width: 700px;
   	max-height: 100%;
-  	
+
 }
 .push{
-	background-color: teal;
+	background-color: rgb(242, 209, 178);
 	height: 50px;
 	width: 50px;
 	font-size: 2em;
+	margin-left: auto;
+	text-align: center;
+	font-weight: bold;
+	border: none;
+	outline:none;
 
 }
 
+.inputToDo{
+	margin-left:5%;
+	width: 300px;
+	height: 30px;
+	border: none;
+	  outline:none;
+}
+.inputToDo:focus{
 
-.header{
+	  border: none;
+	  outline:none;
+}
+
+
+header{
 	width: 400px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
 h1{
+	text-indent: 5%;
 	width: 200px;
 	margin: 0px;
 	height: 50px;
 }
+.toDoList{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.list{
+	background-color: rgb(93, 133, 122);
+	width:70%;
+	height: 50px;
+	margin:5% 0 0 5%;
+	font-size: 20px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+
+}
+
